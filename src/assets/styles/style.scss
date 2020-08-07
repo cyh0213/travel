@@ -1,0 +1,4 @@
+$bgColor:#00bcd4;
+@function r($n){//$px为需要转换的字号
+    @return $n / 75 * 1rem;
+}
